@@ -20,7 +20,7 @@
 		<ul>
 			<li v-for="_new in currentNews" :key="_new.guid">
 				<p>{{ new Date(_new.pubDate).toLocaleDateString() }}</p>
-				<nuxt-link :to="`news/${_new.id}`">
+				<nuxt-link :to="`/${_new.id}`">
 					<h2>{{ _new.title['#cdata'] }}</h2>
 				</nuxt-link>
 				<p>{{ _new.description['#cdata'] }}</p>

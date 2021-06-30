@@ -69,6 +69,6 @@ export default {
   },
   router: {
 	  base:'./',
-	//   mode: 'hash'
+	  mode: 'hash'
   }
 }
